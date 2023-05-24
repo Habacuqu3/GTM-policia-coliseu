@@ -1,0 +1,109 @@
+:root{
+    --cor-de-fundo: black;
+    --cor-da-fonte: white;
+    --cor-de-efeito:rgb(219, 199, 16);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-da-fonte);
+}
+
+.principal{
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+}
+
+.principal__titulo{
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    font-size: 58px;
+}
+
+.logo__tipo{
+    width: 30%;
+}
+
+.secundaria{
+    margin-top: 5em;
+}
+
+.titulo__secundario{
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+    font-size: 48px;
+}
+
+.texto__secundario{
+    margin: 0 2em 0 2em;
+    text-align: center;
+    font-size: 28px;
+}
+
+.cabecalho{
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    background-image: url(img/2coliseu1920x1080.jpg);
+    background-repeat: repeat;
+    padding: 1% 2% 2% 3%;
+    background-color: var(--cor-da-fonte);
+    border-radius: 10px;
+}
+
+.cabecalho__logo{
+    margin-right: 4em;
+    width: 10%;
+    border-radius: 10px;
+    border-color:var(--cor-de-fundo);
+}
+
+.cabecalho__link{
+    align-items: center;
+    margin: 1em;
+    font-size: 24px;
+    font-weight: 500;
+    color:var(--cor-de-fundo);
+    border: 3px double;
+    border-radius: 10px;
+    padding: 1%;
+    background-image: url(img/2coliseu1920x1080.jpg) ;
+    text
+}
+
+.cabecalho__link:hover{
+    background-image: url(img/romans-coliseum.gif);
+    border: 3px double;
+}
+
+.texto__secundario__2{
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-da-fonte);
+}
+
+.logo__tipo__2{
+    width: 20%;
+    margin-left: 40%;
+}
+
+.rodape {
+    align-items: center;
+    padding: 14px;
+    color: var(--cor-de-fundo);
+    background-color:whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.rodape_link{
+    color: var(--cor-de-fundo);
+}

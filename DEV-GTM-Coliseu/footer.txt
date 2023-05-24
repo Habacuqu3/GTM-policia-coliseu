@@ -1,0 +1,8 @@
+<footer class="rodape">
+        <a class="rodape__link" href="https://www.instagram.com/habacuque_cuque/">Instagram
+            <img src="img/instagram.png" alt="Instagram">
+        </a>
+        <a class="rodape__link" href="https://github.com/Habacuqu3">GitHub
+            <img src="img/github.png" alt="GitHub">
+        </a>            
+    </footer>
